@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+:root {
+    --flipkart-theme-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+footer {
+    background-color: var(--flipkart-theme-color);
+    color: white;
+    height: 10vh;
+    font-family: 'Fira Sans', sans-serif;
+    /* position: fixed;
+    bottom: 0; */
+    width : 100vw;
+}
+
+header {
+    height: 10vh;
+    background: var(--flipkart-theme-color);
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 112px;
+    margin: 13px 0px;
+    padding: 3px 23px 0px 165px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    height: 59px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 17px;
+    margin: 20px;
+    padding: 0px 8px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+     font-size: 15px;
+    color: rgb(137, 157, 212);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 450px;
+    height: 25px;
+    border-radius: 2px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login button {
+    background-color: white;
+    color: var(--flipkart-theme-color);
+    height: 27px;
+    border-radius: 2px;
+    margin: 0px 20px;
+    width: 78px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.container {
+    height: 90vh;
+    height: 200vh;
+    background-color: #f1f3f6;
+}
+
+.slider img {
+    margin: 12px 173px;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: white;
+    max-width: 90vw;
+    margin: 40px auto;
+    border-radius: 5px;
+
+}
+
+.card h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    /* margin: 10px 0px; */
+}
+
+.item {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 32px;
+}
+
+.card-items {
+    display: flex;
+    justify-content: center;
+}
